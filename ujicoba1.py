@@ -37,19 +37,10 @@ except:
 def ugen():
 	rr = random.randint
 	rc = random.choice
-	AA = f"Mozilla/5.0 (Linux; Android {str(rr(12,13))}; 2201117TY Build/TKQ1.221114.001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(98,151))}.0.6167.164 Mobile Safari/537.36"
-	BB = f"Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-G990B2) AppleWebKit/537.36 (KHTML, like Gecko; compatible; pageburst) SamsungBrowser/19.0 Chrome/{str(rr(85,130))}.0.{str(rr(2222,2999))}.{str(rr(100,150))} Mobile Safari/537.36"
-	CC = f"Mozilla/5.0 (Linux; Android 12; SM-N975F) AppleWebKit/537.36 (KHTML, like Gecko; compatible; pageburst) Version/4.0 Chrome/{str(rr(115,149))}.0.{str(rr(2222,2999))}.{str(rr(100,150))} Mobile Safari/537.36 BingSapphire/21.0.390225302"
-	DD = f"Mozilla/5.0 (Linux; Android 12; 22111317PI) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(103,127))}.0.0.0 Mobile Safari/537.36"
-#	AA = "Mozilla/5.0 (Linux; Android 12; 2201116PG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Mobile Safari/537.36"
-#	BB = f"Mozilla/5.0 (Linux; Android {str(rr(7,9))}; SAMSUNG SM-G611FF Build/NMF26X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/6.4 Chrome/{str(rr(55,99))}.0.0.0 Mobile Safari/537.36"
-#	CC = "Mozilla/5.0 (Linux; Android 13; 2312FPCA6G Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/121.0.6167.84 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/448.0.0.30.115;]"
-#	DD = "Mozilla/5.0 (Linux; Android 12; 22111317PI) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Mobile Safari/537.36"
-#	EE = "Mozilla/5.0 (Linux; Android 13; 23076PC4BI Build/TKQ1.221114.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.230 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/439.0.0.44.117;]"
-#	BB = f"Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-G990B2) AppleWebKit/537.36 (KHTML, like Gecko; compatible; pageburst) SamsungBrowser/19.0 Chrome/{str(rr(30,70))}.0.{str(rr(2222,2999))}.{str(rr(100,150))} Mobile Safari/537.36"
-#	CC = f"Mozilla/5.0 (Linux; Android {str(rr(10,13))}; SAMSUNG SM-S916U Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko; compatible; pageburst) Version/4.0 Chrome/{str(rr(30,70))}.0.{str(rr(2222,2999))}.{str(rr(100,150))} Mobile Safari/537.36"
-#	DD = f"Mozilla/5.0 (Linux; Android 6.0.1; SAMSUNG SM-A720F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko; compatible; pageburst) SamsungBrowser/8.2 Chrome/{str(rr(30,70))}.0.{str(rr(2222,2999))}.{str(rr(100,150))} Mobile Safari/537.36"
-#	EE = f"Mozilla/5.0 (Linux; Android 12; SM-N975F) AppleWebKit/537.36 (KHTML, like Gecko; compatible; pageburst) Version/4.0 Chrome/{str(rr(30,70))}.0.{str(rr(2222,2999))}.{str(rr(100,150))} Mobile Safari/537.36 BingSapphire/21.0.390225302"
+	AA = f"Mozilla/5.0 (Linux; Android 13; 22081212UG Build/TKQ1.220829.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(112,132))}.0.{str(rr(1999,5615))}.{str(rr(45,68))} Mobile Safari/537.36"
+	BB = f"Mozilla/5.0 (Linux; Android 11; 220333QL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(97,104))}.0.{str(rr(1999,5615))}.{str(rr(45,68))} Mobile Safari/537.36"
+	CC = f"Mozilla/5.0 (Linux; Android 11; M2006C3MG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(85,109))}.0.{str(rr(1999,5615))}.{str(rr(45,68))} Mobile Safari/537.36 Instabridge/21.9.0"
+	DD = f"Mozilla/5.0 (Linux; Android 11; M2101K9AG Build/RKQ1.200826.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(87,109))}.0.{str(rr(0,4515))}.{str(rr(45,68))} Mobile Safari/537.36 GSA/12.30.9.23.arm64"
 	return rc([AA,BB,CC,DD])
 prints(panel(f"[green]{ugen()}[/]",title=f"[[green]✓[/]]",style=f"bold white"));time.sleep(3)
 ###-----[ MENU WARNA PRINT BIASA ]-----###
@@ -99,13 +90,7 @@ def back():
 ###-----[ LOGO BANNER ]-----###
 def banner():
 	print(f"""{P}
-  ________________________________________
- /   _____/\______   \______   \_   _____/
- \_____  \  |       _/|    |  _/|    __)  
- /        \ |    |   \|    |   \|     \   
-/_______  / |____|_  /|______  /\___  /   
-        \/         \/        \/     \/    
- [{B}Script For Brute Facebook{P}]\n [{M}Coded By Rendra Guna Binawan{P}]\n [{U}Est.2021{P}]{P}""")
+██████ 100% *___*
 ###-----[ LOGIN COOKIES ]-----###
 def login():
 	print(f"\n{P}  - masukan cookie anda, disarankan menggunakan akun tumbal. {P}")
@@ -114,7 +99,7 @@ def login():
 	cok = input(f'  - cookies : {H}')
 	open('.cok.txt', 'a').write(cok)
 	try:
-		ses.headers.update({'Accept-Language': 'id,en;q=0.9','User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36','Referer': 'https://www.instagram.com/','Host': 'www.facebook.com','Sec-Fetch-Mode': 'cors','Accept': '*/*','Connection': 'keep-alive','Sec-Fetch-Site': 'cross-site','Sec-Fetch-Dest': 'empty','Origin': 'https://www.instagram.com','Accept-Encoding': 'gzip, deflate',})
+		ses.headers.update({'Accept-Language': 'id,en;q=0.9','User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36','Referer': 'https://www.instagram.com/','Host': 'www.facebook.com','Sec-Fetch-Mode': 'cors','Accept': '*/*','Connection': 'keep-alive','Sec-Fetch-Site': 'cross-site','Sec-Fetch-Dest': 'empty','Origin': 'https://www.instagram.com','Accept-Encoding': 'gzip, deflate',})
 		response = ses.get('https://www.facebook.com/x/oauth/status?client_id=124024574287414&wants_cookie_data=true&origin=1&input_token=&sdk=joey&redirect_uri=https://www.instagram.com/dzikri3535/', cookies={'cookie':cok})
 		if '"access_token":' in str(response.headers):
 			token = re.search('"access_token":"(.*?)"', str(response.headers)).group(1)
